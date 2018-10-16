@@ -5,7 +5,9 @@
         <meta charset="utf-8" />
         <title>Sogilis - Jobs</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet"  href="stylesheets/screen.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="stylesheets/sup1200.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)" href="stylesheets/992-1199.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="stylesheets/768-991.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
         <link rel="stylesheet" href="stylesheets/aos.css" />
 
@@ -16,14 +18,14 @@
     </head>
 
     <body>
-        <div class="content_header_scroll">
+       <div class="content_header_scroll">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-2 offset-lg-2">
+                    <div class="col-md-2 offset-md-1 col-lg-2 offset-lg-2">
                         <a href="index.html"><img src="img/logo_sogilis.svg"></a>
                     </div>
 
-                    <nav class="col-lg-4 offset-lg-3">
+                    <nav class="col-md-6 offset-md-1 col-lg-4 offset-lg-3">
                         <div class="dropdown">
                             <button class="dropbtn">Services</button>
                             <div class="dropdown-content">
@@ -34,19 +36,23 @@
                         </div>
                         <a href="company.html" class="menu_link_1">About</a>
                         <a href="contact.html" class="menu_link_2">Contact</a>
-                           
+            
                     </nav>
                 </div>
             </div>
         </div>
+
+
         <div class="container-fluid sub_menu">
            <div class="row justify-content-center">
-                <div class="col-lg-3">
-                    <ul>
-                        <li><a class="lien_1" href="company.html">Company</a></li>
-                        <li><a class="lien_2" href="purpose.html">Purpose</a></li>
-                        <li><a class="lien_3" href="jobs.html">Jobs</a></li>
-                    </ul>
+                <div class="col-md-8 col-lg-5">
+                    <center>
+                        <ul>
+                            <li><a class="lien_1" href="company.html">Company</a></li>
+                            <li><a class="lien_2" href="purpose.html">Purpose</a></li>
+                            <li><a class="lien_3" href="jobs.html">Jobs</a></li>
+                        </ul>
+                    </center>
                 </div>
             </div>
         </div>
@@ -136,13 +142,13 @@
             </div>
         </div>
 
-         <div class="container-fluid zone_team">
+        <div class="container-fluid zone_team">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-md-6 col-lg-6">
                         <img src="img/zone_team_illustr.svg"/>
                     </div>
-                    <div class="col-lg-5 offset-lg-1">
+                    <div class="col-md-6 col-lg-5 offset-lg-1">
                         <h1  class="title_level_1">The Team</h1>
                         <p class="text_montserrat">Passionnate, dedicated, we enjoy<br> create high-quality software.</p>
                         <a class="btn_dark_grey" href="people.html">Meet the team
@@ -159,14 +165,14 @@
             </div>
         </div>
 
-                <footer class="container-fluid">
+        <footer class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-1">
+                    <div class="d-md-none col-lg-1">
                         <a href="index.html"><img src="img/logo_sogilis_alone.svg"></a>
                     </div>
 
-                    <div class="col-lg-3 offset-lg-1">
+                    <div class="col-md-4 offset-md-1 col-lg-3 offset-lg-1">
                         <h1 class="title_level_1">Contact</h1>
                         <a class="btn_dark_grey" href="contact.html">Contact us
                             <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -179,7 +185,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-1">
+                    <div class="col-md-1 col-lg-1">
                         <a class="liens_sociaux twitter" href="https://twitter.com/Sogilis?lang=fr">
                             <svg version="1.1"
                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
@@ -210,7 +216,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 adresses">
+                    <div class="col-md-5 offset-md-2 col-lg-3 adresses">
                         <p class="title_name">Sogilis Grenoble</p>
                         <p class="text_description">
                             4 Avenue Doyen Louis Weil<br>
@@ -219,7 +225,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-3 adresses">
+                    <div class="col-md-4 col-lg-3 adresses">
                         <p class="title_name">Sogilis Lyon</p>
                         <p class="text_description">
                             289 Rue Garibaldi<br>
@@ -230,7 +236,7 @@
                 </div>
 
                 <div class="row liens_pages">
-                    <div class="col-lg-3 offset-lg-2">
+                    <div class="col-md-5 offset-md-1 col-lg-3 offset-lg-2">
                         <h1 class="title_level_1">Services</h1>
                         <ul>
                             <li><a href="services-cloud-native-applications.html" class="liens_text">Cloud Native Applications</a></li>
@@ -239,7 +245,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 offset-lg-1">
+                    <div class="col-md-4 offset-md-0 col-lg-3 offset-lg-1">
                         <h1 class="title_level_1">Company</h1>
                         <ul>
                             <li><a href="company.html" class="liens_text">About</a></li>
@@ -255,10 +261,10 @@
                     </div>
                 </div>
                 <div class="row subfooter  justify-content-between">
-                    <div class="col-lg-4">
+                    <div class="col-md-4 col-lg-4">
                         <p class="text_description ">Sogilis - All right reserved - 2018</p>
                     </div>
-                    <div class="col-lg-1">
+                    <div class="col-md-2 col-lg-1">
                         <a href="">Legal</a>
                     </div>
                 </div>
