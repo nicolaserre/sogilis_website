@@ -117,6 +117,12 @@ $light-electric-blue:#A7E4EA;
 
 
 //NAVIGATION
+
+.content-menu-mobile,.content-menu-mobile_scroll{
+	display:none;
+}
+
+
 .content_header{
 	position: fixed;
 	z-index:200;

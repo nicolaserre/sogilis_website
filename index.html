@@ -8,6 +8,8 @@
         <link rel="stylesheet" media="screen and (min-width: 1200px)" href="stylesheets/sup1200.css" type="text/css" />
         <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)" href="stylesheets/992-1199.css" type="text/css" />
         <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="stylesheets/768-991.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (min-width: 576px) and (max-width: 767px)" href="stylesheets/576-767.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 575px)" href="stylesheets/inf576.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
         <link rel="stylesheet" href="stylesheets/aos.css" />
 
@@ -19,10 +21,10 @@
 
     <body>
         
-<div class="content_header">
+        <div class="content_header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2 offset-md-1 col-lg-2 offset-lg-2">
+                    <div class="col-sm-12 col-md-2 offset-md-1 col-lg-2 offset-lg-2">
                         <a href="index.html"><img src="img/logo_sogilis.svg"></a>
                     </div>
 
@@ -37,7 +39,6 @@
                         </div>
                         <a href="company.html" class="menu_link_1">About</a>
                         <a href="contact.html" class="menu_link_2">Contact</a>
-                           
                     </nav>
                 </div>
             </div>
@@ -45,15 +46,19 @@
 
         <div class="container-fluid home_zone_1">  
             <div class="row">
-                <div class="col-md-5 col-lg-4  offset-lg-2">
+                <div class="col-sm-12 col-md-5 col-lg-4  offset-lg-2">
                     <h1 class="title_level_1">Passionate People. <br> Great Software.</h1>
-                    <div class="col-lg-10  offset-lg-2">
+                    <div class="col-sm-12 col-md-10 col-lg-10  offset-lg-2">
                         <p class="text_montserrat">We are expert at creating <br>high-quality tailor-made<br> software for your business.</p>
                     </div>
                 </div> 
 
-                 <div class="col-md-7 col-lg-6">
-                    <img   src="img/illustration_header.svg"/>
+                 <div class="d-none d-sm-none d-md-block col-md-7 col-lg-6">
+                    <img src="img/illustration_header.svg"/>
+                </div> 
+
+                <div class="d-block d-sm-block d-md-none col-md-7 col-lg-6">
+                    <img src="img/illustration_header_small.svg"/>
                 </div> 
             </div>
 
@@ -66,7 +71,7 @@
 
         <div class="container home_zone_2">
             <div class="row descr_text">
-                <div class="col-md-10 offset-md-2 col-lg-10 offset-lg-1">
+                <div class="col-sm-10 offset-sm-1 col-md-10 offset-md-2 col-lg-10 offset-lg-1">
                     <p>
                         We’re a team of people passionate about software engineering, we love building software that matters.<br>
                         At Sogilis we believe that the word “impossible” is overused, we donʼt like this word.Which is why we like to challenge that. Weʼre a passionate team of capable, engineers with an unconventional spirit of enthusiasm, and creativity.
@@ -75,14 +80,14 @@
             </div>
 
             <div class="row activity activity_1">
-                <div data-aos="fade" data-aos-duration="1500"  data-aos-once="true" class="col-md-6 col-lg-6 fond_1">
+                <div data-aos="fade" data-aos-duration="1500"  data-aos-once="true" class="col-sm-12 col-md-6 col-lg-6 fond_1">
                     <img data-aos="slide-right" data-aos-duration="2500" data-aos-once="true" src="img/illustr_cloud_native.svg"/>
                 </div>
 
-                <div class="col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title_subcategory">Service</h4>
                     <h3 class="title_name">Cloud Native Applications.</h3>
-                    <div class="col-lg-11 offset-lg-1">
+                    <div class="col-sm-10 col-lg-11 offset-lg-1">
                         <p class="text_description">
                             Your application should be able to support any number of customers at any time. At times of peak demand, you need to react or risk losing business. 
                             <br>Our experts in cloud native applications can build your tailor-made, hyper-scalable software.
@@ -101,10 +106,10 @@
             </div>
 
             <div class="row activity activity_2">
-                <div class="col-md-6 col-lg-6">
+                <div class="order-2 order-md-1 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title_subcategory">Service</h4>
                     <h3 class="title_name">Embedded Software & IoT.</h3>
-                    <div class="col-lg-11 offset-lg-1">
+                    <div class="col-sm-10 col-lg-11 offset-lg-1">
                         <p class="text_description">
                             In a connected world where appliances have their own brain, it’s important to power IOT devices with high-quality software, that is reliable and efficient.
                             <br>Every great device is powered by great software. We help you bring your devices to life with the software they deserve.
@@ -121,7 +126,7 @@
                     </div>
                 </div>
 
-                <div data-aos="fade" data-aos-duration="1500"  data-aos-once="true" class="col-md-6 col-lg-6 fond_1">
+                <div data-aos="fade" data-aos-duration="1500"  data-aos-once="true" class="order-1 order-md-2 col-sm-12 col-md-6 col-lg-6 fond_1">
                     <img data-aos="slide-left" data-aos-duration="2500" data-aos-once="true" src="img/illustr_embedded.svg"/>
                 </div>
             </div>
@@ -157,7 +162,7 @@
 
         <div class="container lets_create_something">
             <div class=" row justify-content-center">
-                <div class="col-md-7 col-lg-5">
+                <div class="col-10 col-sm-10 col-md-7 col-lg-5">
                     <h2>Let's create something great together !</h2>
                     <a class="btn_dark_grey" href="contact.html">Contact us
                         <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -179,7 +184,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4 argumentaire">
+                    <div class="col-sm-6 col-md-6 col-lg-4 argumentaire">
                         <img src="img/diamond.svg"/>
                         <h3>Toward 0 Default.</h3>
                         <p>
@@ -189,7 +194,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 argumentaire">
+                    <div class="col-sm-6 col-md-6 col-lg-4 argumentaire">
                         <img src="img/rocket.svg"/>
                         <h3>Great User Experience.</h3>
                         <p>
@@ -200,7 +205,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 argumentaire">
+                    <div class="col-sm-6 col-md-6 col-lg-4 argumentaire">
                         <img src="img/diamond.svg"/>
                         <h3>Make the Smartest Choice.</h3>
                         <p>
@@ -208,7 +213,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 argumentaire">
+                    <div class="col-sm-6 col-md-6 col-lg-4 argumentaire">
                         <img src="img/ateam.svg"/>
                         <h3>Not a team, The A-Team.</h3>
                         <p>
@@ -218,7 +223,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 argumentaire">
+                    <div class="col-sm-6 col-md-6 col-lg-4 argumentaire">
                         <img src="img/diamond.svg"/>
                         <h3>We've Been There Too.</h3>
                         <p>
@@ -226,7 +231,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 argumentaire">
+                    <div class="col-sm-6 col-md-6 col-lg-4 argumentaire">
                         <img src="img/boat.svg"/>
                         <h3>On The Same Boat.</h3>
                         <p>
@@ -246,50 +251,50 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-3 col-lg-3 border_right border_bottom">
+                    <div class="col-sm-3 col-md-3 col-lg-3 border_right border_bottom">
                         <img src="img/client_logo_hexo.svg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right border_bottom">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right border_bottom">
                         <img src="img/client_logo_thales.svg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right border_bottom ">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right border_bottom ">
                         <img src="img/client_logo_enlaps.jpg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_bottom">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_bottom">
                         <img src="img/client_logo_arkea.jpg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right border_bottom">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right border_bottom">
                         <img src="img/client_logo_eiosis.jpg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right border_bottom">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right border_bottom">
                          <img src="img/client_logo_netceler.jpg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right border_bottom ">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right border_bottom ">
                         <img src="img/client_logo_bpa.jpg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_bottom">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_bottom">
                         <img src="img/client_logo_bee.jpg">
                     </div>
-                       <div class="col-md-3 col-lg-3 border_right">
+                       <div class="col-sm-3 col-md-3 col-lg-3 border_right">
                         <img src="img/client_logo_ibubble.jpg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right">
                         <img src="img/client_logo_squarescale.svg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3 border_right ">
+                     <div class="col-sm-3 col-md-3 col-lg-3 border_right ">
                         <img src="img/client_logo_hionos.svg">
                     </div>
 
-                     <div class="col-md-3 col-lg-3">
+                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <img src="img/client_logo_novener.jpg">
                     </div>
                 </div>
@@ -299,7 +304,7 @@
          <div class="container-fluid lets_create_something_light_blue">
             <div class="container">
                 <div class=" row justify-content-center">
-                    <div class="col-md-7 col-lg-5">
+                    <div class="col-sm-10 col-md-7 col-lg-5">
                         <h2>Let's talk about <br>your project !</h2>
                         <a class="btn_white" href="contact.html">Contact us
                             <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -319,11 +324,11 @@
         <footer class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="d-md-none col-lg-1">
+                    <div class="d-none d-lg-block col-lg-1">
                         <a href="index.html"><img src="img/logo_sogilis_alone.svg"></a>
                     </div>
 
-                    <div class="col-md-4 offset-md-1 col-lg-3 offset-lg-1">
+                    <div class="col-sm-5 col-md-4 offset-md-1 col-lg-3 offset-lg-1">
                         <h1 class="title_level_1">Contact</h1>
                         <a class="btn_dark_grey" href="contact.html">Contact us
                             <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -336,7 +341,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-1 col-lg-1">
+                    <div class="col-sm-7 col-md-1 col-lg-1">
                         <a class="liens_sociaux twitter" href="https://twitter.com/Sogilis?lang=fr">
                             <svg version="1.1"
                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
@@ -367,7 +372,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-5 offset-md-2 col-lg-3 adresses">
+                    <div class="col-sm-6 offset-sm-1 col-md-5 offset-md-2 col-lg-3 adresses">
                         <p class="title_name">Sogilis Grenoble</p>
                         <p class="text_description">
                             4 Avenue Doyen Louis Weil<br>
@@ -376,7 +381,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 adresses">
+                    <div class="col-sm-5 offset-sm-0 col-md-4 col-lg-3 adresses">
                         <p class="title_name">Sogilis Lyon</p>
                         <p class="text_description">
                             289 Rue Garibaldi<br>
@@ -387,7 +392,7 @@
                 </div>
 
                 <div class="row liens_pages">
-                    <div class="col-md-5 offset-md-1 col-lg-3 offset-lg-2">
+                    <div class="col-sm-7 col-md-5 offset-md-1 col-lg-3 offset-lg-2">
                         <h1 class="title_level_1">Services</h1>
                         <ul>
                             <li><a href="services-cloud-native-applications.html" class="liens_text">Cloud Native Applications</a></li>
@@ -396,7 +401,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-4 offset-md-0 col-lg-3 offset-lg-1">
+                    <div class="col-sm-5 col-md-4 offset-md-0 col-lg-3 offset-lg-1">
                         <h1 class="title_level_1">Company</h1>
                         <ul>
                             <li><a href="company.html" class="liens_text">About</a></li>
@@ -407,15 +412,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-12">
                         <div class="trait_gris_clair"></div>
                     </div>
                 </div>
                 <div class="row subfooter  justify-content-between">
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-sm-8 col-md-4 col-lg-4">
                         <p class="text_description ">Sogilis - All right reserved - 2018</p>
                     </div>
-                    <div class="col-md-2 col-lg-1">
+                    <div class="col-sm-3 col-md-2 col-lg-1">
                         <a href="">Legal</a>
                     </div>
                 </div>
@@ -423,6 +428,58 @@
         </footer>
 
 
+
+        <!-- Menu Mobile --> 
+         <div class="content-menu-mobile" id="content-menu">
+            <div class="container">
+              <div class="col-xs-3">
+                <a href="index.html">
+                   <img src="img/logo_sogilis.svg">
+                </a>
+              </div>
+              <div class="col-xs-2 col-xs-offset-7">
+                <a href="#" class="menuBtn">
+                  <span class="lines"></span>
+                </a>
+                <nav class="mainMenuMobile">
+                <ul>
+                  <li>
+                    <a href="services-cloud-native-applications.html">Cloud Native Applications</a>
+                  </li>
+                  <li>
+                    <a href="#">Embedded & Software IoT</a>
+                  </li>
+                  <li>
+                    <a href="#">Safety Critical Software</a>
+                  </li>
+                   <li>
+                    <a href="company.html">About Sogilis</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              </div>
+            </div>
+          </div>
+
+
+    <!-- Script Display Menu Mobile -->
+    <script>
+        $('.menuBtn').click(function() {
+          $(this).toggleClass('act');
+            if($(this).hasClass('act')) {
+              $('.mainMenuMobile').addClass('act');
+            }
+            else {
+              $('.mainMenuMobile').removeClass('act');
+            }
+        });
+    </script>
+
+
+    <!-- Change class header Tablet and Desktop when user is scrolling --> 
     <script type="text/javascript">
         $(function() {
             //caches a jQuery object containing the header element
@@ -439,6 +496,24 @@
         });
     </script>
 
+    <!-- Change class header Mobile  when user is scrolling --> 
+    <script type="text/javascript">
+        $(function() {
+            //caches a jQuery object containing the header element
+            var header = $(".content-menu-mobile");
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 300) {
+                    header.removeClass('content-menu-mobile').addClass("content-menu-mobile_scroll");
+                } else {
+                    header.removeClass("content-menu-mobile_scroll").addClass('content-menu-mobile');
+                }
+            });
+        });
+    </script>
+
+    <!-- Init Animations script --> 
     <script>
         AOS.init();
     </script>
