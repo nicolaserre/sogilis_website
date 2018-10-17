@@ -149,9 +149,9 @@ $light-electric-blue:#A7E4EA;
 	transition: all 0.3s;
 
 	img{
-		margin-top: 28px;
-	    margin-left: 22px;
-	    width: 110px;
+		margin-top: 29px;
+	    margin-left: 33px;
+	    width: 85px;
 	    -webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		-o-transition: all 0.3s;
@@ -167,8 +167,12 @@ $light-electric-blue:#A7E4EA;
 	    width: 30px;
 	    position: absolute;
 	    right: 32px!important;
-	    top: 38px;
+	    top: 35px;
 	    z-index: 101;
+	     -webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
 
 		> span {
 			background-color: $dark-grey;
@@ -257,7 +261,7 @@ $light-electric-blue:#A7E4EA;
 		a {
 			color: $wolf-blue;
 			display: inline-block;
-			font-size: 2em;
+			font-size: 1.3em;
 			font-family: 'EB Garamond', serif;
 			font-weight:800;
 			&.suBtn {
@@ -268,7 +272,7 @@ $light-electric-blue:#A7E4EA;
 		a:active{
 			color: $wolf-blue;
 			display: inline-block;
-			font-size: 2em;
+			font-size: 1.3em;
 			font-family: 'EB Garamond', serif;
 			font-weight:500;
 			text-decoration: none;
@@ -285,7 +289,7 @@ $light-electric-blue:#A7E4EA;
 	    height: 2px;
 	    width: 24%;
 	    position: absolute;
-	    top: 234px;
+	    top: 150px;
 	    left: 38%;
 		background-color:$light-electric-blue;
 	}
@@ -300,7 +304,7 @@ $light-electric-blue:#A7E4EA;
 	top:0;
 	z-index: 99;
 	background-color:white;
-	height:100px;
+	height:65px;
 	width:100%;
 	box-shadow: 1px 5px 20px 9px rgba(0,0,0,0.06);
 	opacity:100%;
@@ -310,9 +314,10 @@ $light-electric-blue:#A7E4EA;
 	transition: all 0.3s;
 
 	img{
-		margin-top: 30px;
-		height: 40px;
-		-webkit-transition: all 0.3s;
+		margin-top: 13px;
+    	margin-left: 14px;
+	    width: 85px;
+	    -webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
@@ -329,8 +334,12 @@ $light-electric-blue:#A7E4EA;
 
 		position: absolute;
 		right: 13px;
-		top: 37px;
+		top: 19px;
 		z-index: 101;
+		 -webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
 
 		> span {
 			background-color: $dark-grey;
@@ -418,7 +427,7 @@ $light-electric-blue:#A7E4EA;
 		a {
 			color: $wolf-blue;
 			display: inline-block;
-			font-size: 2em;
+			font-size: 1.3em;
 			font-family: 'EB Garamond', serif;
 			font-weight:800;
 			&.suBtn {
@@ -429,7 +438,7 @@ $light-electric-blue:#A7E4EA;
 		a:active{
 			color: $wolf-blue;
 			display: inline-block;
-			font-size: 2em;
+			font-size: 1.3em;
 			font-family: 'EB Garamond', serif;
 			font-weight:500;
 			text-decoration: none;
@@ -446,7 +455,7 @@ $light-electric-blue:#A7E4EA;
 	    height: 2px;
 	    width: 24%;
 	    position: absolute;
-	    top: 234px;
+	    top: 150px;
 	    left: 38%;
 		background-color:$light-electric-blue;
 	}
@@ -961,7 +970,7 @@ textarea:focus{
 .home_zone_1{
 	background-color:$super-light-grey;
 	width:100%;
-	height:650px;	
+	height:480px;	
 	border:15px solid white;
 	overflow:hidden;
 
@@ -971,7 +980,7 @@ textarea:focus{
 	}
 
 	.title_level_1{
-		margin-top:12vh;
+		margin-top:100px;
 		margin-left:15px;
 		font-size: 2em!important;
 		text-align:center;
@@ -1009,7 +1018,7 @@ textarea:focus{
 		font-family: 'EB Garamond', serif;
 		font-size:1em;
 		color:$medium-grey;	
-		margin-top:30px;	
+		margin-top:15px;	
 	}
 
 	.descr_text p::before{
@@ -1017,7 +1026,7 @@ textarea:focus{
 	    height: 4px;
 	    width: 17px;
 	    background-color: #A7E4EA;
-	    display: block;
+	    display: none;
 	    position: absolute;
 	    margin-top: 10px;
 	    margin-left: -25px;
@@ -1036,7 +1045,7 @@ textarea:focus{
 			img{
 				width:40%;
 				margin-left:30%;
-				margin-top:65px;
+				margin-top:25px;
 			}
 		}
 
