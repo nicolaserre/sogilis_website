@@ -1051,7 +1051,7 @@ textarea:focus{
 	margin-top:20px;
 
 	 li{
-	 	margin-top:25px;
+	 	margin-top:19px;
 	 }
 }
 
@@ -1115,6 +1115,18 @@ textarea:focus{
 		margin-top:50px; 
 		.fond_1{
 			background:url('../img/fond_activity_1.svg') no-repeat;
+		    background-size: 78%;
+		    background-position-x: center;
+		    background-position-y: center;
+		    z-index: -1;
+
+			img{
+				width:85%;
+			}
+		}
+
+		.fond_2{
+			background:url('../img/fond_activity_2.svg') no-repeat;
 		    background-size: 78%;
 		    background-position-x: center;
 		    background-position-y: center;
@@ -1828,6 +1840,10 @@ textarea:focus{
 
 	.title_name{
 		font-size:1em;
+	}
+
+	.icone{
+		height: 50px;
 	}
 }
 

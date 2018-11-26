@@ -1112,6 +1112,18 @@ textarea:focus{
 			}
 		}
 
+		.fond_2{
+			background:url('../img/fond_activity_2.svg') no-repeat;
+		    background-size: 78%;
+		    background-position-x: center;
+		    background-position-y: center;
+		    z-index: -1;
+
+			img{
+				width:85%;
+			}
+		}
+
 		.title_name::before{
 			content:'';
 			display:block;

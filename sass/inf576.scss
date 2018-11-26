@@ -1051,6 +1051,20 @@ textarea:focus{
 			}
 		}
 
+		.fond_2{
+			background:url('../img/fond_activity_2.svg') no-repeat;
+		    background-size: 40%;
+		    background-position-x: center;
+		    background-position-y: center;
+		    z-index: -1;
+
+			img{
+				width:40%;
+				margin-left:30%;
+				margin-top:65px;
+			}
+		}
+
 		.title_name {
 		    color: #016099;
 		    font-family: 'Montserrat', sans-serif;
