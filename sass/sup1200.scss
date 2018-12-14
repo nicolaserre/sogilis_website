@@ -568,6 +568,7 @@ footer{
 		margin-top:30px;
 	}
 
+	margin-top: 50px;
 	padding-top:80px;
 	padding-bottom:25px;
 	box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
@@ -872,6 +873,10 @@ footer{
 	    position: absolute;
 	    margin-top: 23px;
 	    margin-left: -36px;
+	}
+
+	.btn_dark_grey{
+		margin-bottom: 50px;
 	}
 }
 
@@ -1835,11 +1840,22 @@ textarea:focus{
 	}
 
 	.margin_left_20{
-		margin-left:40px;
+		margin-left:0px;
 	}
 
 	.title_name{
 		font-size:1em;
+	}
+
+	.title_name::before{
+		content: '';
+	    height: 5px;
+	    width: 15px;
+	    background-color: #A7E4EA;
+	    display: block;
+	    position: absolute;
+	    margin-top: 10px;
+	    margin-left: -25px;
 	}
 
 	.icone{
@@ -2108,7 +2124,7 @@ textarea:focus{
 
 .services_zone_8{
 	margin-top:80px;
-	padding-bottom:80px;
+	padding-bottom:0px;
 
 	.title_zone{
 		font-size: 1.8em;

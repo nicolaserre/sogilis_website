@@ -1846,11 +1846,22 @@ textarea:focus{
 	}
 
 	.margin_left_20{
-		margin-left:80px;
+		margin-left:0px;
 	}
 
 	.title_name{
 		font-size:0.9em;
+	}
+
+	.title_name::before{
+		content: '';
+	    height: 5px;
+	    width: 15px;
+	    background-color: #A7E4EA;
+	    display: none;
+	    position: absolute;
+	    margin-top: 10px;
+	    margin-left: -25px;
 	}
 }
 
