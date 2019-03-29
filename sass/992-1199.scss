@@ -97,6 +97,12 @@ $light-electric-blue:#A7E4EA;
 	font-weight:400;
 }
 
+.text_description_little{
+	color:$medium-grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.62em;
+	font-weight:400;
+}
 
 .liens_text{
 	color:$medium-grey;
@@ -134,8 +140,8 @@ $light-electric-blue:#A7E4EA;
 
 
     img{
-    	margin-top:10px;
-    	width:60%;
+    	margin-top:1px;
+    	width:82%;
     	-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 	  	-o-transition: all 0.3s;
@@ -143,7 +149,7 @@ $light-electric-blue:#A7E4EA;
     }
 
     nav{
-    	margin-top:30px;
+    	margin-top:15px;
 
     	.menu_link_1, .menu_link_2{
     		font-family: 'Montserrat', sans-serif;
@@ -163,7 +169,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 210px;
+			margin-left: 201px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -179,7 +185,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 330px;
+			margin-left: 291px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -308,8 +314,8 @@ $light-electric-blue:#A7E4EA;
 
 
     img{
-    	margin-top:15px;
-    	width:73%;
+    	margin-top:20px;
+    	width:70%;
     	-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
 		  	-o-transition: all 0.3s;
@@ -338,7 +344,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 210px;
+			margin-left: 201px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -354,7 +360,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 330px;
+			margin-left: 291px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -848,12 +854,16 @@ footer{
 /**********************************/
 
 .lets_create_something{
+
+	margin-bottom: 50px; 
+	margin-top: 25px; 
+
 	h2{
 		font-family: 'EB Garamond', serif;
 		font-size:2em;
 		font-weight:700;
 		color:$medium-grey;
-		margin-top: 80px;
+		margin-top: 50px;
     	margin-bottom: 50px;
 	}
 
@@ -872,14 +882,14 @@ footer{
 .lets_create_something_light_blue{
 	background-color:$light-electric-blue;	
 	padding-bottom:70px;
+	padding-top:50px;
 
 	h2{
 		font-family: 'EB Garamond', serif;
 		font-size:2.5em;
 		font-weight:700;
 		color:white;
-		margin-top: 80px;
-    	margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 
 	h2::before{
@@ -898,8 +908,8 @@ footer{
 
 
 .zone_client{
-	padding-top: 130px;
-    padding-bottom: 80px;
+	padding-top: 50px;
+    padding-bottom: 25px;
 
     .title_zone{
     	margin-bottom:80px;
@@ -1035,6 +1045,19 @@ textarea:focus{
 	color:$wolf-blue;
 }
 
+.list_items{
+	font-size:0.9em;
+	font-family: 'Montserrat', sans-serif !important;
+	color:$medium_grey;
+	list-style: url('../img/puce_list.svg');
+	margin-left:35px;
+	margin-top:20px;
+
+	 li{
+	 	margin-top:10px;
+	 }
+}
+
 
 /**********************************************************************************************************************************************************/
 /* HOME PAGE */
@@ -1048,7 +1071,7 @@ textarea:focus{
 	border:15px solid white;
 
 	img{
-		width:124%
+		width:100%
 	}
 
 	.title_level_1{
@@ -1907,6 +1930,65 @@ textarea:focus{
 	}
 }
 
+
+.services_zone_3_bis{
+	background-color:$super-light-grey2;
+	padding-top:80px;
+	margin-top:50px;
+	padding-bottom:50px;
+	box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+	moz-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+	webkit-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+
+	.title_zone{
+		font-size:1.5em;
+		font-weight:500;
+		margin-bottom:50px;
+	}
+
+	.title_zone::before{
+		margin-top:12px;
+	}
+
+	.text_description{
+		margin-top:30px;
+		margin-bottom:50px;
+	}
+
+	.technical_item{
+		display:block;
+		background-color:white;
+		text-align:center;
+		padding:27px 30px 20px 30px;
+		box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+		moz-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+		webkit-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+		margin-bottom:30px;
+		height:130px;
+
+		.text_description{
+			font-size:1.1em;
+			margin-bottom:0px;
+			margin-top:0px;
+			font-weight:600;
+			vertical-align:middle;
+		}
+
+		.v_align_1{
+			margin-top:17px;
+		}
+
+		.v_align_2{
+			margin-top:5px;
+		}
+
+		.v_align_3{
+			margin-top:22px;
+		}
+	}
+}
+
+
 .services_zone_4{
 	margin-top:50px;
 
@@ -2019,6 +2101,22 @@ textarea:focus{
 		margin-left:10%;
 		margin-top:0px;
 	}
+
+	.bis{ 
+		.title_name_2{
+			color: #016099;
+		    font-size: 1.2em;
+		    font-family: 'Montserrat', sans-serif;
+		    font-weight: 700;
+		    margin-top:40px;
+		}
+
+		.text_description{
+			line-height: 2em;
+		    margin-top: 10px;
+		    margin-left: 0px;
+		}
+	}
 }
 
 .services_zone_7{
@@ -2075,5 +2173,14 @@ textarea:focus{
 
 	a{
 		margin-left:50px;
+	}
+}
+
+.services_zone_9{
+	margin-top:60px;
+
+	.text_description{
+		line-height: 2em;
+    	margin-bottom: 50px;
 	}
 }

@@ -47,7 +47,7 @@ $light-electric-blue:#A7E4EA;
 	font-family: 'EB Garamond', serif;
 	font-weight:600;
 	color:$wolf-blue;
-	font-size:3.8em;
+	font-size:3em;
 }
 
 .text_montserrat{
@@ -169,7 +169,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 210px;
+			margin-left: 251px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -185,7 +185,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 330px;
+			margin-left: 371px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -314,8 +314,8 @@ $light-electric-blue:#A7E4EA;
 
 
     img{
-    	margin-top:15px;
-    	width:40%;
+    	margin-top:17px;
+    	width:50%;
     	-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
 		  	-o-transition: all 0.3s;
@@ -344,7 +344,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 210px;
+			margin-left: 251px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -360,7 +360,7 @@ $light-electric-blue:#A7E4EA;
 			background-color: #A7E4EA;
 			position: absolute;
 			margin-top: -36px;
-			margin-left: 330px;
+			margin-left: 371px;
 			z-index: -1;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
@@ -1292,11 +1292,12 @@ textarea:focus{
 
 		p{
 			font-family: 'EB Garamond', serif;
-			color:$medium-grey;
-			font-weight:400;
-			font-size:2.4em;
-			margin-left:30px;
-			margin-top:-60px;
+		    color: #707070;
+		    font-weight: 500;
+		    font-size: 1.2em;
+		    margin-left: 30px;
+		    line-height: 1.2em;
+		    margin-top: -60px;
 		}
 	}
 }

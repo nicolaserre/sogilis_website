@@ -97,6 +97,13 @@ $light-electric-blue:#A7E4EA;
 	font-weight:400;
 }
 
+.text_description_little{
+	color:$medium-grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.62em;
+	font-weight:400;
+}
+
 
 .liens_text{
 	color:$medium-grey;
@@ -950,6 +957,19 @@ textarea{
 textarea:focus{
 	border: 3px solid $wolf-blue;
 	color:$wolf-blue;
+}
+
+.list_items{
+	font-size:0.8em;
+	font-family: 'Montserrat', sans-serif !important;
+	color:$medium_grey;
+	list-style: url('../img/puce_list.svg');
+	margin-left:35px;
+	margin-top:20px;
+
+	 li{
+	 	margin-top:5px;
+	 }
 }
 
 
@@ -1941,6 +1961,64 @@ textarea:focus{
 	}
 }
 
+
+.services_zone_3_bis{
+	background-color:$super-light-grey2;
+	padding-top:60px;
+	margin-top:50px;
+	padding-bottom:40px;
+	box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+	moz-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+	webkit-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+
+	.title_zone{
+		font-size:1.5em;
+		font-weight:500;
+		margin-bottom:50px;
+	}
+
+	.title_zone::before{
+		margin-top:12px;
+	}
+
+	.text_description{
+		margin-top:30px;
+		margin-bottom:50px;
+	}
+
+	.technical_item{
+		display:block;
+		background-color:white;
+		text-align:center;
+		padding:13px 30px 20px 30px;
+		box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+		moz-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+		webkit-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+		margin-bottom:30px;
+		height:100px;
+
+		.text_description{
+			font-size:0.8em;
+			margin-bottom:0px;
+			margin-top:0px;
+			font-weight:600;
+			vertical-align:middle;
+		}
+
+		.v_align_1{
+			margin-top:17px;
+		}
+
+		.v_align_2{
+			margin-top:17px;
+		}
+
+		.v_align_3{
+			margin-top:22px;
+		}
+	}
+}
+
 .services_zone_4{
 	margin-top:50px;
 
@@ -2055,7 +2133,7 @@ textarea:focus{
 
 
 	.text_description{
-		line-height: 2em;
+		line-height: 1.2em;
 	    margin-top: 0px;
 	    margin-left: 0px;
 	    font-size:0.8em;
@@ -2074,6 +2152,23 @@ textarea:focus{
 		width:80%;
 		margin-left:10%;
 		margin-top:0px;
+	}
+
+	.bis{ 
+		.title_name_2{
+			color: #016099;
+		    font-size: 1.2em;
+		    font-family: 'Montserrat', sans-serif;
+		    font-weight: 700;
+		    margin-top:40px;
+		    text-align: center;
+		}
+
+		.text_description{
+			line-height: 1.2em;
+		    margin-top: 10px;
+		    margin-left: 0px;
+		}
 	}
 }
 
@@ -2145,5 +2240,31 @@ textarea:focus{
 
 	a{
 		margin-left:0px;
+	}
+}
+
+.services_zone_9{
+	margin-top:60px;
+
+	.title_zone{
+		font-size: 1.5em;
+	}
+
+	.title_zone::before{
+		height: 3px;
+		margin-top: 10px;
+    	margin-left: -27px;
+    	width: 20px;
+
+	}
+
+	.text_description{
+		line-height: 1.3em;
+    	margin-bottom: 50px;
+    	font-size: 0.8em;
+	}
+
+	.icone{
+		width: 25%;
 	}
 }
