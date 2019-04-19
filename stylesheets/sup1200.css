@@ -368,7 +368,7 @@ body {
 /* line 316, ../sass/sup1200.scss */
 .content_header_scroll img {
   margin-top: 17px;
-  width: 50%;
+  width: 41%;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1660,7 +1660,7 @@ textarea:focus {
 }
 /* line 1644, ../sass/sup1200.scss */
 .content_purpose_2 p, .content_purpose_2 h1 {
-  color: white;
+  color: #016099;
 }
 /* line 1648, ../sass/sup1200.scss */
 .content_purpose_2 p {
@@ -1674,7 +1674,7 @@ textarea:focus {
   height: 4px;
   width: 20px;
   position: absolute;
-  background-color: #016099;
+  background-color: white;
   z-index: 0;
   margin-left: -28px;
   margin-top: 19px;
@@ -1995,7 +1995,7 @@ textarea:focus {
 /* line 1977, ../sass/sup1200.scss */
 .services_zone_4 .are_you_ready {
   background-color: #A7E4EA;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 50px;
   padding-left: 100px;
   box-shadow: 0 0 19px 0px rgba(0, 0, 0, 0.1);
@@ -2004,7 +2004,7 @@ textarea:focus {
 }
 /* line 1986, ../sass/sup1200.scss */
 .services_zone_4 .are_you_ready .title_level_1 {
-  color: white;
+  color: #016099;
   font-size: 3em;
   font-weight: 600;
 }
@@ -2014,13 +2014,13 @@ textarea:focus {
   display: block;
   height: 13px;
   width: 100%;
-  background-color: #016099;
+  background-color: white;
   margin-top: -18px;
   margin-left: 131px;
 }
 /* line 2002, ../sass/sup1200.scss */
 .services_zone_4 .are_you_ready .text_description {
-  color: white;
+  color: #016099;
   margin-top: 30px;
   line-height: 2em;
 }
@@ -2141,67 +2141,71 @@ textarea:focus {
 .services_zone_7 .title_zone::before {
   margin-top: 15px;
 }
+/* line 2125, ../sass/sup1200.scss */
+.services_zone_7 .btn_white {
+  margin-top: 30px;
+}
 
-/* line 2126, ../sass/sup1200.scss */
+/* line 2130, ../sass/sup1200.scss */
 .services_zone_8 {
   margin-top: 80px;
   padding-bottom: 0px;
 }
-/* line 2130, ../sass/sup1200.scss */
+/* line 2134, ../sass/sup1200.scss */
 .services_zone_8 .title_zone {
   font-size: 1.8em;
   margin-left: 35px;
 }
-/* line 2135, ../sass/sup1200.scss */
+/* line 2139, ../sass/sup1200.scss */
 .services_zone_8 .title_zone::before {
   margin-top: 15px;
 }
-/* line 2139, ../sass/sup1200.scss */
+/* line 2143, ../sass/sup1200.scss */
 .services_zone_8 img {
   margin-top: 40px;
 }
-/* line 2143, ../sass/sup1200.scss */
+/* line 2147, ../sass/sup1200.scss */
 .services_zone_8 .text_description {
   margin-left: 50px;
   margin-top: 50px;
   line-height: 2em;
   margin-bottom: 50px;
 }
-/* line 2150, ../sass/sup1200.scss */
+/* line 2154, ../sass/sup1200.scss */
 .services_zone_8 a {
   margin-left: 50px;
 }
 
-/* line 2155, ../sass/sup1200.scss */
+/* line 2159, ../sass/sup1200.scss */
 .services_zone_9 {
   margin-top: 120px;
   padding-bottom: 40px;
 }
-/* line 2159, ../sass/sup1200.scss */
+/* line 2163, ../sass/sup1200.scss */
 .services_zone_9 .title_zone {
   font-size: 1.8em;
   margin-left: 35px;
 }
-/* line 2164, ../sass/sup1200.scss */
+/* line 2168, ../sass/sup1200.scss */
 .services_zone_9 .title_zone::before {
   margin-top: 15px;
 }
-/* line 2168, ../sass/sup1200.scss */
+/* line 2172, ../sass/sup1200.scss */
 .services_zone_9 img {
   margin-top: 0px;
 }
-/* line 2172, ../sass/sup1200.scss */
+/* line 2176, ../sass/sup1200.scss */
 .services_zone_9 .text_description {
   margin-left: 50px;
   margin-top: 30px;
   line-height: 2em;
   margin-bottom: 50px;
 }
-/* line 2179, ../sass/sup1200.scss */
+/* line 2183, ../sass/sup1200.scss */
 .services_zone_9 a {
   margin-left: 50px;
 }
-/* line 2183, ../sass/sup1200.scss */
+/* line 2187, ../sass/sup1200.scss */
 .services_zone_9 .text_deux {
   margin-top: 15px !important;
   margin-left: 0 !important;

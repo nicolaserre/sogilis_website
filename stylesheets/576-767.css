@@ -1677,7 +1677,7 @@ textarea:focus {
 }
 /* line 1636, ../sass/576-767.scss */
 .content_purpose_2 p, .content_purpose_2 h1 {
-  color: white;
+  color: #016099;
 }
 /* line 1640, ../sass/576-767.scss */
 .content_purpose_2 p {
@@ -1697,7 +1697,7 @@ textarea:focus {
   height: 3px;
   width: 20px;
   position: absolute;
-  background-color: #016099;
+  background-color: white;
   z-index: 0;
   margin-left: -28px;
   margin-top: 13px;
@@ -2078,7 +2078,7 @@ textarea:focus {
 }
 /* line 2035, ../sass/576-767.scss */
 .services_zone_4 .are_you_ready .title_level_1 {
-  color: white;
+  color: #016099;
   font-size: 2.4em;
   font-weight: 600;
 }
@@ -2094,7 +2094,7 @@ textarea:focus {
 }
 /* line 2051, ../sass/576-767.scss */
 .services_zone_4 .are_you_ready .text_description {
-  color: white;
+  color: #016099;
   margin-top: 30px;
   line-height: 2em;
 }

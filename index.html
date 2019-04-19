@@ -5,17 +5,38 @@
         <meta charset="utf-8" />
         <title>Sogilis - Great Software</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
         <link rel="stylesheet" media="screen and (min-width: 1200px)" href="stylesheets/sup1200.css" type="text/css" />
         <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)" href="stylesheets/992-1199.css" type="text/css" />
         <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="stylesheets/768-991.css" type="text/css" />
         <link rel="stylesheet" media="screen and (min-width: 576px) and (max-width: 767px)" href="stylesheets/576-767.css" type="text/css" />
         <link rel="stylesheet" media="screen and (max-width: 575px)" href="stylesheets/inf576.css" type="text/css" />
+
+
         <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+
+
         <link rel="stylesheet" href="stylesheets/aos.css" />
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
         <script src="js/aos.js"></script>
+        <script src="js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
+        <script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+        <script type="text/javascript">
+            var userLang = navigator.language || navigator.userLanguage;
+            userLang = userLang.split('-')[0];
+            var lang = new Lang();
+            lang.dynamic('fr', 'js/langs/fr.json');
+            lang.init({
+                defaultLang: "en",
+                currentLang: Object.keys(lang._dynamic).indexOf(userLang)>-1?userLang:"en",
+                allowCookieOverride: true
+            });
+        </script>
+
         <link rel="icon" type="image/png" href="img/favicon.png"/>
     </head>
 
@@ -24,21 +45,22 @@
         <div class="content_header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 col-md-2 offset-md-1 col-lg-2 offset-lg-2">
+                    <div class="col-sm-12 col-md-2 offset-md-1 col-lg-2 offset-lg-2 col-xl-2 offset-xl-2">
                         <a href="index.html"><img src="img/logo_sogilis.svg"></a>
                     </div>
 
-                    <nav class="col-md-6 offset-md-3 col-lg-4 offset-lg-3">
+                    <nav class="col-md-6 offset-md-3 col-lg-4 offset-lg-3 col-xl-5 offset-xl-2 ">
                         <div class="dropdown">
-                            <button class="dropbtn">Services</button>
+                            <button class="dropbtn" data-lang-token="menu_btn_services" >Services</button>
                             <div class="dropdown-content">
-                                <a href="services-cloud-native-applications.html">Cloud Native Applications</a>
-                                <a href="#">Embedded Software & IoT</a>
-                                <a href="services-safety-critical.html">Safety-Critical Software</a>
+                                <a href="services-cloud-native-applications.html" lang="en" data-lang-token="menu_btn_cloud" >Cloud Native Applications</a>
+                                <a href="#" lang="en" data-lang-token="menu_btn_embarque" >Embedded Software & IoT</a>
+                                <a href="services-safety-critical.html"data-lang-token="menu_btn_critique" >Safety-Critical Software</a>
                             </div>
                         </div>
-                        <a href="purpose.html" class="menu_link_1">Our Purpose</a>
-                        <a href="contact.html" class="menu_link_2">Contact</a>
+                        <a href="purpose.html" class="menu_link_1" data-lang-token="menu_btn_vision">Our Purpose</a>
+                        <a href="contact.html" class="menu_link_2" data-lang-token="menu_btn_contact">Contact</a>
+                        <a href="#lang-en" onclick="window.lang.change('en'); return false;" lang="en">Eng</a> | <a href="#lang-fr" onclick="window.lang.change('fr'); return false;" lang="en">Fr</a>
                     </nav>
                 </div>
             </div>
@@ -74,7 +96,7 @@
                 <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-2 col-lg-10 offset-lg-1">
                     <p>
                         We’re a team of people passionate about software engineering, we love building software that matters.<br>
-                        At Sogilis we believe that the word “impossible” is overused, we donʼt like this word.Which is why we like to challenge that. Weʼre a passionate team of capable, engineers with an unconventional spirit of enthusiasm, and creativity.
+                        At Sogilis we believe that the word “impossible” is overused, we donʼt like this word. Which is why we like to challenge that. Weʼre a passionate team of capable, engineers with an unconventional spirit of enthusiasm, and creativity.
                     </p>
                 </div>  
             </div>
@@ -92,7 +114,7 @@
                             Your application should be able to support any number of customers at any time. At times of peak demand, you need to react or risk losing business. 
                             <br>Our experts in cloud native applications can build your tailor-made, hyper-scalable software.
                         </p>
-                        <a class="btn_dark_grey" href="">See more about this
+                        <a class="btn_dark_grey" href="services-cloud-native-applications.html">See more about this
                             <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                  viewBox="0 0 7.5 10.3" style="enable-background:new 0 0 7.5 10.3;" xml:space="preserve">
                             <style type="text/css">
@@ -329,8 +351,8 @@
                     </div>
 
                     <div class="col-10 col-sm-5 col-md-4 offset-md-1 col-lg-3 offset-lg-1">
-                        <h1 class="title_level_1">Contact</h1>
-                        <a class="btn_dark_grey" href="contact.html">Contact us
+                        <h1 class="title_level_1" data-lang-token="footer_titre_contact">Contact</h1>
+                        <a class="btn_dark_grey" href="contact.html" data-lang-token="menu_btn_contact">Contact us
                             <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                  viewBox="0 0 7.5 10.3" style="enable-background:new 0 0 7.5 10.3;" xml:space="preserve">
                             <style type="text/css">
@@ -393,20 +415,20 @@
 
                 <div class="row liens_pages">
                     <div class="col-11 offset-1  col-sm-7 col-md-5 offset-md-1 col-lg-3 offset-lg-2">
-                        <h1 class="title_level_1">Services</h1>
+                        <h1 class="title_level_1" data-lang-token="footer_titre_services">Services</h1>
                         <ul>
-                            <li><a href="services-cloud-native-applications.html" class="liens_text">Cloud Native Applications</a></li>
-                            <li><a href="" class="liens_text">Embedded & Software IoT</a></li>
-                            <li><a href="services-safety-critical.html" class="liens_text">Safety Critical Software</a></li>
+                            <li><a href="services-cloud-native-applications.html" class="liens_text" data-lang-token="menu_btn_cloud">Cloud Native Applications</a></li>
+                            <li><a href="" class="liens_text" data-lang-token="menu_btn_embarque">Embedded & Software IoT</a></li>
+                            <li><a href="services-safety-critical.html" class="liens_text" data-lang-token="menu_btn_critique">Safety Critical Software</a></li>
                         </ul>
                     </div>
 
                     <div class="col-11 offset-1  col-sm-5 col-md-4 offset-md-0 col-lg-3 offset-lg-1">
                         <h1 class="title_level_1">Company</h1>
                         <ul>
-                            <li><a href="purpose.html" class="liens_text">Our Purpose</a></li>
-                            <li><a href="jobs.html" class="liens_text">Jobs</a></li>
-                            <li><a href="" class="liens_text">Blog</a></li>
+                            <li><a href="purpose.html" class="liens_text" data-lang-token="menu_btn_vision">Our Purpose</a></li>
+                            <li><a href="jobs.html" class="liens_text" data-lang-token="menu_btn_job">Jobs</a></li>
+                            <li><a href="" class="liens_text" data-lang-token="menu_btn_blog">Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -417,7 +439,7 @@
                 </div>
                 <div class="row subfooter  justify-content-between">
                     <div class="col-9 col-sm-8 col-md-4 col-lg-4">
-                        <p class="text_description ">Sogilis - All right reserved - 2018</p>
+                        <p class="text_description">Sogilis - All right reserved - 2018</p>
                     </div>
                     <div class="col-2 col-sm-3 col-md-2 col-lg-1">
                         <a href="">Legal</a>
@@ -443,19 +465,19 @@
                 <nav class="mainMenuMobile">
                 <ul>
                   <li>
-                    <a href="services-cloud-native-applications.html">Cloud Native Applications</a>
+                    <a href="services-cloud-native-applications.html" data-lang-token="menu_btn_cloud">Cloud Native Applications</a>
                   </li>
                   <li>
-                    <a href="#">Embedded & Software IoT</a>
+                    <a href="#" data-lang-token="menu_btn_embarque">Embedded & Software IoT</a>
                   </li>
                   <li>
-                    <a href="services-safety-critical.html">Safety Critical Software</a>
+                    <a href="services-safety-critical.html" data-lang-token="menu_btn_critique">Safety Critical Software</a>
                   </li>
                    <li>
-                    <a href="purpose.html">Our Purpose</a>
+                    <a href="purpose.html" data-lang-token="menu_btn_vision">Our Purpose</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" data-lang-token="menu_btn_contact">Contact</a>
                   </li>
                 </ul>
               </nav>

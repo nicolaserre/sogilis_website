@@ -1657,7 +1657,7 @@ textarea:focus{
 	margin-top:80px;
 
 	p, h1{
-		color:white;
+		color:$wolf-blue;
 	}
 
 	p{
@@ -1671,7 +1671,7 @@ textarea:focus{
 	    height: 4px;
 	    width: 20px;
 	    position: absolute;
-	    background-color: #016099;
+	    background-color: white;
 	    z-index: 0;
 	    margin-left: -28px;
 	    margin-top: 19px;
@@ -1995,7 +1995,7 @@ textarea:focus{
 
 	.are_you_ready{
 		background-color:$light-electric-blue;
-		padding-top:100px;
+		padding-top:80px;
 		padding-bottom:50px;
 		padding-left:100px;
 		box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
@@ -2003,7 +2003,7 @@ textarea:focus{
 		webkit-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
 
 		.title_level_1{
-			color:white;
+			color:w$wolf-blue;
 			font-size:2.4em;
 			font-weight:600;
 		}
@@ -2013,13 +2013,13 @@ textarea:focus{
 		    display: block;
 		    height: 13px;
 		    width: 100%;
-		    background-color: $wolf-blue;
+		    background-color: white;
 		    margin-top: -18px;
 		    margin-left: 131px;
 		}
 
 		.text_description{
-			color:white;
+			color:$wolf-blue;
 			margin-top:30px;
 			line-height:2em;
 		}

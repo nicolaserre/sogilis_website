@@ -1,0 +1,19 @@
+{
+  "token": {
+    "menu_btn_services": "Services",
+    	"menu_btn_cloud": "Applications Cloud Natives",
+    	"menu_btn_embarque": "Logiciels Embarqué & IoT",
+    	"menu_btn_critique": "Logiciels Critiques",
+    "menu_btn_vision": "Notre Vision",
+    "menu_btn_contact": "Contact",
+    "menu_btn_job": "Emplois",
+    "menu_btn_contact": "Contact",
+    "menu_btn_blog": "blog",
+
+    "footer_titre_contact":"contact",
+    "footer_titre_services":"services",
+    "footer_titre_entreprise":"entreprise",
+
+
+  }
+}
