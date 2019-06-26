@@ -914,6 +914,32 @@ footer{
 }
 
 
+.lets_create_something_light_blue_bis{
+	background-color:$light-electric-blue;	
+	padding-bottom:70px;
+	margin-bottom: -50px;
+	margin-top: 50px;
+
+	h2{
+		font-family: 'EB Garamond', serif;
+		font-size:2.5em;
+		font-weight:700;
+		color:white;
+		margin-top: 80px;
+    	margin-bottom: 50px;
+	}
+
+	h2::before{
+		content: '';
+	    height: 5px;
+	    width: 25px;
+	    background-color: $wolf-blue;
+	    display: block;
+	    position: absolute;
+	    margin-top: 23px;
+	    margin-left: -36px;
+	}
+}
 
 
 .zone_client{
@@ -1726,6 +1752,12 @@ textarea:focus{
 	    margin-left: -28px;
 	    margin-top: 13px;
 	}
+
+	a{
+		font-weight: 800;
+		color:$wolf-blue;
+		text-decoration: underline;
+	}
 }
 
 .content_purpose_3{
@@ -2308,5 +2340,28 @@ textarea:focus{
 
 	.icone{
 		width: 25%;
+	}
+}
+
+.services_zone_10{
+	background-color:$super-light-grey2;
+	padding-top:80px;
+	padding-bottom:80px;
+	box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+	moz-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+	webkit-box-shadow:0 0 19px 0px rgba(0, 0, 0, 0.1);
+
+	.title_zone{
+		margin-bottom: 60px;
+
+	}
+
+	.title_name{
+		margin-bottom: 60px;
+		font-size: 1em;
+	}
+
+	img{
+		margin-bottom: 10px;
 	}
 }
