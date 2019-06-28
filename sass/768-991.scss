@@ -1991,6 +1991,10 @@ textarea:focus{
 		margin-top:12px;
 	}
 	
+	.bis{
+		margin-bottom: 40px;
+	}
+
 	.text_description{
 		margin-top:10px;
 		margin-bottom:50px;
@@ -2391,7 +2395,8 @@ textarea:focus{
 
 	.title_zone{
 		margin-bottom: 60px;
-
+		margin-left: 30px;
+		font-size: 1.5em;
 	}
 
 	.title_name{
@@ -2401,5 +2406,6 @@ textarea:focus{
 
 	img{
 		margin-bottom: 10px;
+		width: 100px;
 	}
 }

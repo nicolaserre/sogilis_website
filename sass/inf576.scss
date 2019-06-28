@@ -1049,7 +1049,7 @@ textarea:focus{
 .home_zone_1{
 	background-color:$super-light-grey;
 	width:100%;
-	height:480px;	
+	height:576px;	
 	border:15px solid white;
 	overflow:hidden;
 
@@ -1875,7 +1875,7 @@ textarea:focus{
 	padding-top:90px;
 
 	img{
-		width:76%;
+		width:70%;
 		margin-left:12%;
 	}
 
@@ -1929,8 +1929,14 @@ textarea:focus{
 	.title_zone{
 		font-size:1.5em;
 	}
+
 	.title_zone::before{
 		margin-top:12px;
+	}
+
+	.bis{
+		margin-bottom:40px;
+		margin-top:30px;
 	}
 	
 	.text_description{
@@ -2349,7 +2355,8 @@ textarea:focus{
 
 	.title_zone{
 		margin-bottom: 60px;
-
+		margin-left: 30px;
+		font-size: 1.5em;
 	}
 
 	.title_name{
@@ -2359,5 +2366,6 @@ textarea:focus{
 
 	img{
 		margin-bottom: 10px;
+		width: 100px;
 	}
 }
