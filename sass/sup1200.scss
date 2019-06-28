@@ -1088,22 +1088,35 @@ textarea:focus{
 }
 
 
-.lang_selector{
+.lang_selector_fr{
 	position:fixed;
-	background-color:rgba(0,0,0, 0.5);
+	z-index: 10000;
+	background: rgba(0,188,180,1);
+	background: -moz-linear-gradient(left, rgba(0,188,180,1) 0%, rgba(122,159,180,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,188,180,1)), color-stop(100%, rgba(122,159,180,1)));
+	background: -webkit-linear-gradient(left, rgba(0,188,180,1) 0%, rgba(122,159,180,1) 100%);
+	background: -o-linear-gradient(left, rgba(0,188,180,1) 0%, rgba(122,159,180,1) 100%);
+	background: -ms-linear-gradient(left, rgba(0,188,180,1) 0%, rgba(122,159,180,1) 100%);
+	background: linear-gradient(to right, rgba(0,188,180,1) 0%, rgba(122,159,180,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bcb4', endColorstr='#7a9fb4', GradientType=1 );
 	display: block;
-	bottom:00px;
-	right: 30px;
-	padding-top:10px;
-	height: 50px;
-	width: 144px;
+	border-radius: 150px;
+	bottom: 30px;
+    right: 30px;
+    padding-top: 9px;
+    height: 47px;
+    width: 133px;
+
+	img{
+		margin-left: 19px;
+	}
 
 	a{
 		color: white;
-		font-family: 'Montserrat', sans-serif !important;
-		font-weight: 500;
-		font-size:0.8em;
-		margin-left: 20px;
+		font-family: 'EB Garamond', serif;
+		font-weight: 800;
+		font-size:1em;
+		margin-left: 10px;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
   		-o-transition: all 0.3s;
@@ -1112,9 +1125,6 @@ textarea:focus{
 
 	a:hover{
 		color: white;
-		font-family: 'Montserrat', sans-serif !important;
-		font-weight: 600;
-		font-size:0.8em;
 	}
 }
 /**********************************************************************************************************************************************************/
@@ -1149,6 +1159,10 @@ textarea:focus{
 
 	.arrow_scroll{
 		width:30%;
+	}
+
+	img{
+		width: 100%;
 	}
 }
 
