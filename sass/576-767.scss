@@ -1093,7 +1093,7 @@ textarea:focus{
 		font-family: 'EB Garamond', serif;
 		font-size:1em;
 		color:$medium-grey;	
-		margin-top:30px;	
+		margin-top:15px;	
 	}
 
 	.descr_text p::before{
@@ -1105,6 +1105,15 @@ textarea:focus{
 	    position: absolute;
 	    margin-top: 10px;
 	    margin-left: -25px;
+	}
+
+	.title_zone{
+		font-size: 1.5em;
+		margin-left: 50px;
+	}
+
+	.title_zone:before{
+		display: none;
 	}
 
 	.activity_1{
@@ -1684,6 +1693,14 @@ textarea:focus{
 		color:$medium-grey;
 		font-size:0.8em;
 		text-align:center;
+	}
+
+	.title_zone:before{
+		display: none;
+	}
+
+	.title_zone{
+		font-size: 1em;
 	}
 }
 

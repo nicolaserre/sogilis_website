@@ -1184,7 +1184,7 @@ textarea:focus{
 		font-family: 'EB Garamond', serif;
 		font-size:1.2em;
 		color:$medium-grey;	
-		margin-top:60px;	
+		margin-top:20px;	
 	}
 
 	.descr_text p::before{
@@ -1196,6 +1196,15 @@ textarea:focus{
 	    position: absolute;
 	    margin-top: 15px;
 	    margin-left: -30px;
+	}
+
+	.title_zone{
+		font-size: 1.5em;
+		margin-left: 50px;
+	}
+
+	.title_zone:before{
+		display: none;
 	}
 
 	.activity_1{
@@ -1731,7 +1740,7 @@ textarea:focus{
 	}
 
 	.text_montserrat{
-		font-size:0.8em;
+		font-size:0.7em;
 		margin-top:20px;
 	}
 
@@ -1752,7 +1761,15 @@ textarea:focus{
 
 	.title_name{
 		color:$medium-grey;
-		font-size:0.8em;
+		font-size:0.7em;
+	}
+
+	.title_zone:before{
+		display: none;
+	}
+
+	.title_zone{
+		font-size: 1.2em;
 	}
 }
 
