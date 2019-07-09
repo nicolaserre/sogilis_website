@@ -1574,6 +1574,22 @@ textarea:focus{
 			    	margin-top:8px;
 			    	font-size:0.8em;
 			    }
+
+			    .btn_dark_grey{
+	    			color: $dark_grey;
+			    	margin-top: 20px;
+			    	margin-left: 14px;
+			    	margin-bottom: 50px;
+			    }
+
+			    .btn_dark_grey:hover{
+					color:white;
+					text-decoration:none;
+
+					svg{
+						stroke:white;
+					}
+				}
 	    	}
 		}
 	
@@ -1589,9 +1605,20 @@ textarea:focus{
 		    transition: max-height 0.2s ease-out;
 
 		    .text_montserrat{
-			    	font-size:0.9em;
-			    	color:$dark_grey;
-			    }
+			    font-size:0.9em;
+			   	color:$dark_grey;
+			}
+
+		    .title_name{
+	    		font-size: 1em;
+		    }
+
+		    .text_montserrat_bold{
+		    	font-family: 'Montserrat', sans-serif;
+				color:$medium-grey;
+				font-size:1em;
+				font-weight:600;
+		    }
 		}
 	}
 }
